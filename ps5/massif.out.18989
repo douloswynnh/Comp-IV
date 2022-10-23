@@ -1,0 +1,503 @@
+desc: (none)
+cmd: ./EDistance
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2453806
+mem_heap_B=72704
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=2571031
+mem_heap_B=76800
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=2587136
+mem_heap_B=76921
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=2596131
+mem_heap_B=77041
+mem_heap_extra_B=39
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=2613954
+mem_heap_B=77281
+mem_heap_extra_B=39
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=2649335
+mem_heap_B=78242
+mem_heap_extra_B=62
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=2649460
+mem_heap_B=77761
+mem_heap_extra_B=39
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=2720121
+mem_heap_B=79682
+mem_heap_extra_B=62
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=2720298
+mem_heap_B=78721
+mem_heap_extra_B=39
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=2861519
+mem_heap_B=82562
+mem_heap_extra_B=62
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=2861787
+mem_heap_B=80641
+mem_heap_extra_B=39
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=2950167
+mem_heap_B=80672
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=2966142
+mem_heap_B=80882
+mem_heap_extra_B=62
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=2983965
+mem_heap_B=81122
+mem_heap_extra_B=62
+mem_stacks_B=0
+heap_tree=detailed
+n3: 81122 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4908A99: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+  n1: 72704 0x4011B89: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4011C90: call_init (dl-init.c:30)
+    n1: 72704 0x4011C90: _dl_init (dl-init.c:119)
+     n0: 72704 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 4322 0x49A535D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+  n2: 4322 0x49260F4: std::basic_istream<char, std::char_traits<char> >& std::operator>><char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+   n0: 3841 0x10AB6A: main (in /home/dhtet/Documents/ps5/EDistance)
+   n0: 481 in 1 place, below massif's threshold (1.00%)
+ n1: 4096 0x4AE0D33: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x4AF0EFF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x4AEFCD3: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 4096 0x4AF0FB5: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x496B4B0: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+      n1: 4096 0x4979B22: std::istream::sentry::sentry(std::istream&, bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+       n1: 4096 0x4925EC6: std::basic_istream<char, std::char_traits<char> >& std::operator>><char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+        n0: 4096 0x10AB6A: main (in /home/dhtet/Documents/ps5/EDistance)
+#-----------
+snapshot=15
+#-----------
+time=3019346
+mem_heap_B=82083
+mem_heap_extra_B=85
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=3019471
+mem_heap_B=81602
+mem_heap_extra_B=62
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=3090132
+mem_heap_B=83523
+mem_heap_extra_B=85
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=3090309
+mem_heap_B=82562
+mem_heap_extra_B=62
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=3231687
+mem_heap_B=86403
+mem_heap_extra_B=85
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=3231955
+mem_heap_B=84482
+mem_heap_extra_B=62
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=3320048
+mem_heap_B=86983
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=3335876
+mem_heap_B=1620094
+mem_heap_extra_B=3146
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=3350476
+mem_heap_B=3620894
+mem_heap_extra_B=7146
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=3365076
+mem_heap_B=5621694
+mem_heap_extra_B=11146
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=3379676
+mem_heap_B=7622494
+mem_heap_extra_B=15146
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=3390626
+mem_heap_B=9123094
+mem_heap_extra_B=18146
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=3405226
+mem_heap_B=11123894
+mem_heap_extra_B=22146
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=3419826
+mem_heap_B=13124694
+mem_heap_extra_B=26146
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=3434426
+mem_heap_B=15125494
+mem_heap_extra_B=30146
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=3449026
+mem_heap_B=17126294
+mem_heap_extra_B=34146
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=3463626
+mem_heap_B=19127094
+mem_heap_extra_B=38146
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=3478226
+mem_heap_B=21127894
+mem_heap_extra_B=42146
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=3492826
+mem_heap_B=23128694
+mem_heap_extra_B=46146
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=3507571
+mem_heap_B=25139498
+mem_heap_extra_B=50166
+mem_stacks_B=0
+heap_tree=peak
+n2: 25139498 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 25020004 0x10A59B: EDistance::EDistance(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /home/dhtet/Documents/ps5/EDistance)
+  n0: 25020004 0x10ABC8: main (in /home/dhtet/Documents/ps5/EDistance)
+ n0: 119494 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=3510882
+mem_heap_B=25135520
+mem_heap_extra_B=50136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=1044453149
+mem_heap_B=25125516
+mem_heap_extra_B=50116
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=1044465371
+mem_heap_B=23184740
+mem_heap_extra_B=46236
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=1044477971
+mem_heap_B=21183940
+mem_heap_extra_B=42236
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=1044490571
+mem_heap_B=19183140
+mem_heap_extra_B=38236
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=1044503171
+mem_heap_B=17182340
+mem_heap_extra_B=34236
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=1044515771
+mem_heap_B=15181540
+mem_heap_extra_B=30236
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=1044528371
+mem_heap_B=13180740
+mem_heap_extra_B=26236
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=1044540971
+mem_heap_B=11179940
+mem_heap_extra_B=22236
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=1044553571
+mem_heap_B=9179140
+mem_heap_extra_B=18236
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=1044566171
+mem_heap_B=7178340
+mem_heap_extra_B=14236
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=1044578771
+mem_heap_B=5177540
+mem_heap_extra_B=10236
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=1044591371
+mem_heap_B=3176740
+mem_heap_extra_B=6236
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=1044603971
+mem_heap_B=1175940
+mem_heap_extra_B=2236
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=1044610271
+mem_heap_B=175540
+mem_heap_extra_B=236
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=1044610397
+mem_heap_B=155532
+mem_heap_extra_B=196
+mem_stacks_B=0
+heap_tree=detailed
+n6: 155532 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4908A99: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+  n1: 72704 0x4011B89: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4011C90: call_init (dl-init.c:30)
+    n1: 72704 0x4011C90: _dl_init (dl-init.c:119)
+     n0: 72704 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 40016 0x10A59B: EDistance::EDistance(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /home/dhtet/Documents/ps5/EDistance)
+  n0: 40016 0x10ABC8: main (in /home/dhtet/Documents/ps5/EDistance)
+ n1: 20008 0x10A51F: EDistance::EDistance(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /home/dhtet/Documents/ps5/EDistance)
+  n0: 20008 0x10ABC8: main (in /home/dhtet/Documents/ps5/EDistance)
+ n2: 17684 0x49A535D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+  n1: 10002 0x49A6B52: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+   n2: 10002 0x10AA8E: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) (in /home/dhtet/Documents/ps5/EDistance)
+    n1: 5001 0x10A491: EDistance::EDistance(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /home/dhtet/Documents/ps5/EDistance)
+     n0: 5001 0x10ABC8: main (in /home/dhtet/Documents/ps5/EDistance)
+    n1: 5001 0x10A4D1: EDistance::EDistance(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /home/dhtet/Documents/ps5/EDistance)
+     n0: 5001 0x10ABC8: main (in /home/dhtet/Documents/ps5/EDistance)
+  n2: 7682 0x49260F4: std::basic_istream<char, std::char_traits<char> >& std::operator>><char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+   n0: 3841 0x10AB6A: main (in /home/dhtet/Documents/ps5/EDistance)
+   n0: 3841 0x10AB7F: main (in /home/dhtet/Documents/ps5/EDistance)
+ n1: 5120 0x4AE0D33: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 5120 0x4AF0EFF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x4AEFCD3: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 4096 0x4AF0FB5: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x496B4B0: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+      n1: 4096 0x4979B22: std::istream::sentry::sentry(std::istream&, bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+       n1: 4096 0x4925EC6: std::basic_istream<char, std::char_traits<char> >& std::operator>><char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+        n0: 4096 0x10AB6A: main (in /home/dhtet/Documents/ps5/EDistance)
+   n0: 1024 in 1 place, below massif's threshold (1.00%)
+ n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=51
+#-----------
+time=1044610523
+mem_heap_B=135524
+mem_heap_extra_B=156
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=1044610649
+mem_heap_B=115516
+mem_heap_extra_B=116
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=1044610784
+mem_heap_B=85506
+mem_heap_extra_B=70
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=1044620202
+mem_heap_B=5120
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=1044621827
+mem_heap_B=1024
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty

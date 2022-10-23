@@ -1,0 +1,52 @@
+Device Boot Report
+
+Intouch log file: ./kronos/device4_intouch.log
+Lines scanned: 48794
+
+Device boot count: initiated = 0, completed: 15
+
+
+112(./kronos/device4_intouch.log): 2013-10-02 18:45:23Boot Completed
+	Boot Time: 9223372036854775ms 
+
+855(./kronos/device4_intouch.log): 2013-10-03 12:26:15Boot Completed
+	Boot Time: 9223372036854775ms 
+
+1568(./kronos/device4_intouch.log): 2013-10-04 16:23:06Boot Completed
+	Boot Time: 9223372036854775ms 
+
+31956(./kronos/device4_intouch.log): 2013-12-03 16:24:08Boot Completed
+	Boot Time: 9223372036854775ms 
+
+33032(./kronos/device4_intouch.log): 2013-12-04 21:52:57Boot Completed
+	Boot Time: 9223372036854775ms 
+
+33390(./kronos/device4_intouch.log): 2013-12-04 22:01:14Boot Completed
+	Boot Time: 9223372036854775ms 
+
+33920(./kronos/device4_intouch.log): 2013-12-04 22:23:31Boot Completed
+	Boot Time: 9223372036854775ms 
+
+45538(./kronos/device4_intouch.log): 2013-12-05 13:36:55Boot Completed
+	Boot Time: 9223372036854775ms 
+
+45858(./kronos/device4_intouch.log): 2013-12-05 14:14:53Boot Completed
+	Boot Time: 9223372036854775ms 
+
+46353(./kronos/device4_intouch.log): 2013-12-05 15:41:29Boot Completed
+	Boot Time: 9223372036854775ms 
+
+46600(./kronos/device4_intouch.log): 2013-12-05 20:22:54Boot Completed
+	Boot Time: 9223372036854775ms 
+
+47035(./kronos/device4_intouch.log): 2013-12-10 13:23:12Boot Completed
+	Boot Time: 9223372036854775ms 
+
+47991(./kronos/device4_intouch.log): 2013-12-10 19:43:55Boot Completed
+	Boot Time: 9223372036854775ms 
+
+48341(./kronos/device4_intouch.log): 2013-12-11 14:11:41Boot Completed
+	Boot Time: 9223372036854775ms 
+
+48636(./kronos/device4_intouch.log): 2013-12-11 14:20:46Boot Completed
+	Boot Time: 9223372036854775ms 
